@@ -43,4 +43,10 @@ SELECT * FROM BorrowRecords;
 
 
 
+use dummy;
+select * from customers;
+select * from customers order by creditlimit desc limit 5 offset 2;
+
+
+
 
